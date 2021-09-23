@@ -1,0 +1,17 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true
+    },
+    "extends": [
+        "google"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 12
+    },
+    "rules": {
+        "camelcase": ["error", {"allow": ["inserted_at", "updated_at"]}],
+        "max-len": ["error", {"ignoreStrings": true}]
+    }
+}
